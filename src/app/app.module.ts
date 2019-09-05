@@ -5,6 +5,7 @@ import { EventsAppComponent } from './events-app.component';
 import { EventsListComponent } from './events/events-list.component';
 import { EventThumbnailComponent } from './events/event-thumbnail.component';
 import { NavbarComponent } from './nav/navbar.component';
+import { CreateEventComponent } from './events/create-event.component';
 import { EventService } from './events/shared/event.service';
 import { ToastrService } from './common/toastr.service';
 
@@ -13,7 +14,8 @@ import { ToastrService } from './common/toastr.service';
     EventsAppComponent,
     EventsListComponent,
     EventThumbnailComponent,
-    NavbarComponent
+    NavbarComponent,
+    CreateEventComponent
   ],
   providers: [EventService, ToastrService ],
   imports: [
